@@ -75,7 +75,7 @@ echo "INFO: Sudo has been installed (if it was not already present). Beginning D
 tput sgr0
 apt dist-upgrade -y
 apt update -y
-man yes | apt autoremove
+#man yes | apt autoremove
 tput setaf 0 && tput setb 2 docker
 echo "INFO: OS has been upgraded." 
 tput sgr0 
